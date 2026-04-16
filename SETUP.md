@@ -48,13 +48,13 @@ DATA_DIR = Path("/path/to/arb_files")
 
 ```bash
 # Create venv (do this once)
-python3 -m venv .venv
+python -m venv .venv
 
 # Activate — Linux / macOS
 source .venv/bin/activate
 
 # Activate — Windows
-.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 
 # Confirm you are in the venv
 which python    # should show .venv/bin/python
@@ -97,13 +97,13 @@ Then install:
 # Step 1: Upgrade pip
 pip install --upgrade pip
 
-# Step 2: Install PyTorch 2.9.1 with CUDA 13.0 (matches your driver exactly)
-pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu130
+# Step 2: Install PyTorch (GPU-enabled, stable)
+pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
 
-# Step 3: Install torch-geometric AFTER torch
-pip install torch-geometric==2.5.3
+# Step 3: Install torch-geometric (must match torch version)
+pip install torch-geometric
 
-# Step 4: Everything else
+# Step 4: Install remaining dependencies
 pip install -r requirements.txt
 ```
 
@@ -127,16 +127,7 @@ auto-crop bracket regions from camera frames.
 ## 4. Verify installation
 
 ```bash
-python3 -c "
-import torch, torchvision, torch_geometric
-import pdfplumber, trimesh, matplotlib, numpy, PIL
-print('torch:          ', torch.__version__)
-print('torchvision:    ', torchvision.__version__)
-print('torch_geometric:', torch_geometric.__version__)
-print('numpy:          ', numpy.__version__)
-print('CUDA available: ', torch.cuda.is_available())
-print('All OK')
-"
+python -c "import torch; print(torch.__version__); print('CUDA:', torch.cuda.is_available())"
 ```
 
 Expected output (CPU install):
