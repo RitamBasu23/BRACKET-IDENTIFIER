@@ -1,0 +1,57 @@
+# =============================================================================
+# ARB Bracket Identification Pipeline — Python Dependencies
+# =============================================================================
+# Python >= 3.10 required (3.11 or 3.12 recommended)
+#
+# Install instructions: see SETUP.md
+#
+# Two install paths:
+#   CPU-only (default, works on any machine):
+#       pip install -r requirements.txt
+#
+#   CUDA (faster training, requires NVIDIA GPU + CUDA 12.1):
+#       pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
+#       pip install torch-geometric==2.5.3
+# =============================================================================
+
+
+# ── Core deep learning ────────────────────────────────────────────────────────
+torch==2.3.1
+torchvision==0.18.1
+
+
+# ── Graph Neural Network ──────────────────────────────────────────────────────
+# torch-geometric must be installed AFTER torch — see SETUP.md
+torch-geometric==2.5.3
+
+
+# ── Numerical / scientific ────────────────────────────────────────────────────
+numpy==1.26.4
+scipy==1.13.1
+
+
+# ── PDF parsing ───────────────────────────────────────────────────────────────
+pdfplumber==0.11.4
+pdfminer.six==20231228          # pdfplumber dependency (pinned for stability)
+
+
+# ── Image processing ──────────────────────────────────────────────────────────
+Pillow==10.3.0
+
+
+# ── 3D geometry / STL rendering ──────────────────────────────────────────────
+trimesh==4.4.0
+matplotlib==3.9.0               # used for headless STL rendering (Agg backend)
+networkx==3.3                   # trimesh + torch-geometric dependency
+
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm==4.66.4                    # progress bars during training
+PyYAML==6.0.1                   # dataset.yaml for YOLO
+
+
+# ── YOLO object detection (OPTIONAL) ─────────────────────────────────────────
+# Uncomment to enable YOLO bracket detection on camera frames.
+# Requires ~200MB download for model weights on first use.
+#
+# ultralytics==8.2.0

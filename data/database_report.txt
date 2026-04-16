@@ -1,0 +1,182 @@
+=================================================================
+ARB BRACKET TRAINING DATABASE BUILD
+Source dir : D:\PGRD ARB\BRACKET IDENTIFIER\260410_EXPORT FILES
+Brackets   : 26
+=================================================================
+Trainable brackets (have STEP + STL): 13
+
+┌─ 3750590
+│  ⚠  SKIP — no STEP and no STL files
+└─ flags: []
+
+┌─ 3135505R
+│  STEP  ✓  ent=52003 faces=277 cyl=58 adj_edges=691
+│  PDF   ✓  title='WING RHS SUIT HILUX'  mass=7.8kg  thick=3.0mm
+│  STL   ✓  file=3135505R.STL  tri=2408  814.98×502.24×367.2mm  excl=0 fasteners  area=645722mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=0
+
+┌─ 3750259
+│  ⚠  SKIP — no STEP and no STL files
+└─ flags: ['NO_GEOM']
+
+┌─ 3750371L
+│  STEP  ✓  ent=3890 faces=122 cyl=43 adj_edges=313
+│  PDF   ✗  title=''  mass=Nonekg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 1/3 — ⚠ partial
+└─ done in 0.0s  class_label=-1
+
+┌─ 3750371R
+│  STEP  ✓  ent=6443 faces=197 cyl=75 adj_edges=525
+│  PDF   ✗  title=''  mass=Nonekg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 1/3 — ⚠ partial
+└─ done in 0.0s  class_label=-1
+
+┌─ 3750554L
+│  STEP  ✓  ent=5297 faces=157 cyl=57 adj_edges=392
+│  PDF   ⚠ pair:3750554R  title='BRKT FRT RH ASSY CHNL ROOF BAR'  mass=0.4kg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3750554R
+│  STEP  ✓  ent=5307 faces=157 cyl=57 adj_edges=392
+│  PDF   ✓  title='BRKT FRT RH ASSY CHNL ROOF BAR'  mass=0.4kg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3750555L
+│  STEP  ✓  ent=5148 faces=152 cyl=57 adj_edges=377
+│  PDF   ⚠ pair:3750555R  title='BRKT RR RH ASSY CHNL ROOF BAR'  mass=0.4kg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3750555R
+│  STEP  ✓  ent=5144 faces=152 cyl=57 adj_edges=377
+│  PDF   ✓  title='BRKT RR RH ASSY CHNL ROOF BAR'  mass=0.4kg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3753261L
+│  STEP  ✓  ent=3945 faces=99 cyl=40 adj_edges=242
+│  PDF   ⚠ pair:3753261R  title='BRKT BLADE BR MOUNT LC300 MID RH 55mm'  mass=0.1kg  thick=4.0mm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3753261R
+│  STEP  ✓  ent=3954 faces=99 cyl=40 adj_edges=242
+│  PDF   ✓  title='BRKT BLADE BR MOUNT LC300 MID RH 55mm'  mass=0.1kg  thick=4.0mm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3753932L
+│  STEP  ✓  ent=3740 faces=116 cyl=35 adj_edges=295
+│  PDF   ✗  title=''  mass=Nonekg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 1/3 — ⚠ partial
+└─ done in 0.0s  class_label=-1
+
+┌─ 3753932R
+│  STEP  ✓  ent=3736 faces=116 cyl=35 adj_edges=295
+│  PDF   ✓  title='& CONFIDENTIAL M PUU RS PT O N SO ET W B'  mass=0.3kg  thick=Nonemm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.1s  class_label=-1
+
+┌─ 3755060L
+│  STEP  ✓  ent=2488 faces=73 cyl=39 adj_edges=211
+│  PDF   ⚠ pair:3755060R  title='REFER TO MATERIAL THICKNESS FOR BEND & C'  mass=0.3kg  thick=4.0mm
+│  STL   ✓  file=3755060L.STL  tri=680  90.88×24.0×238.33mm  excl=0 fasteners  area=21072mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=2
+
+┌─ 3755060R
+│  STEP  ✓  ent=2488 faces=73 cyl=39 adj_edges=211
+│  PDF   ✓  title='REFER TO MATERIAL THICKNESS FOR BEND & C'  mass=0.3kg  thick=4.0mm
+│  STL   ✓  file=3755060R.STL  tri=680  92.88×22.3×238.33mm  excl=0 fasteners  area=21047mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=3
+
+┌─ 3757047
+│  STEP  ✓  ent=2146 faces=69 cyl=21 adj_edges=171
+│  PDF   ✓  title='Angular Linear GAUGE: 2 - 3 mm 4 - 5 mm '  mass=Nonekg  thick=3.0mm
+│  STL   ✓  file=3757047.STL  tri=1316  135.48×39.0×90.0mm  excl=0 fasteners
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.3s  class_label=4
+
+┌─ 3759365R
+│  STEP  ✓  ent=5146 faces=146 cyl=76 adj_edges=397
+│  PDF   ✓  title='BRKT CHANNEL 51X3.7'  mass=0.4kg  thick=3.0mm
+│  STL   —  not provided
+│  Quality: 2/3 — ⚠ partial
+└─ done in 0.3s  class_label=-1
+
+┌─ 3759698L
+│  STEP  ✓  ent=7592 faces=232 cyl=112 adj_edges=614
+│  PDF   ✓  title='BRKT LH REAR TUB MOUNT HILUX 640A F'  mass=Nonekg  thick=3.0mm
+│  STL   ✓  file=3759698L.STL  tri=2064  120.05×336.0×280.0mm  excl=0 fasteners
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=5
+
+┌─ 3759698R
+│  STEP  ✓  ent=7592 faces=232 cyl=112 adj_edges=614
+│  PDF   ⚠ pair:3759698L  title='BRKT LH REAR TUB MOUNT HILUX 640A F'  mass=Nonekg  thick=3.0mm
+│  STL   ✓  file=3759698R.STL  tri=2060  120.05×336.0×280.0mm  excl=0 fasteners
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=6
+
+┌─ 3759706R
+│  STEP  ✓  ent=3962 faces=92 cyl=32 adj_edges=237
+│  PDF   ✓  title='BRKT CAN RACK FR RH HILUX 640A'  mass=0.6kg  thick=3.0mm
+│  STL   ✓  file=3759706R.STL  tri=2116  74.86×95.41×118.02mm  excl=0 fasteners  area=57888mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=7
+
+┌─ 3759968L
+│  STEP  ✓  ent=9351 faces=242 cyl=122 adj_edges=677
+│  PDF   ⚠ pair:3759968R  title='FR CNR MTG BRKT - COLORADO / D-MAX'  mass=0.7kg  thick=3.0mm
+│  STL   ✓  file=3759968L.STL  tri=2120  220.0×205.0×123.0mm  excl=0 fasteners  area=62500mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=8
+
+┌─ 3759968R
+│  STEP  ✓  ent=4817 faces=152 cyl=72 adj_edges=407
+│  PDF   ✓  title='FR CNR MTG BRKT - COLORADO / D-MAX'  mass=0.7kg  thick=3.0mm
+│  STL   ✓  file=3759968R.STL  tri=1240  220.0×205.0×123.0mm  excl=0 fasteners  area=61281mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=9
+
+┌─ 4601064
+│  STEP  ✓  ent=1391 faces=44 cyl=18 adj_edges=109
+│  PDF   ✓  title='CHANNEL NUT WHEEL CARRIER'  mass=0.1kg  thick=2.5mm
+│  STL   ✓  file=4601064.STL  tri=872  50.0×40.5×50.0mm  excl=0 fasteners  area=11940mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.1s  class_label=10
+
+┌─ 6582530L
+│  STEP  ✓  ent=2882 faces=89 cyl=44 adj_edges=240
+│  PDF   ⚠ pair:6582530R  title='REFER TO MATERIAL THICKNESS FOR BEND & C'  mass=0.5kg  thick=3.0mm
+│  STL   ✓  file=6582530L.STL  tri=748  126.81×166.12×151.01mm  excl=0 fasteners  area=46042mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=11
+
+┌─ 6582530R
+│  STEP  ✓  ent=2878 faces=89 cyl=44 adj_edges=240
+│  PDF   ✓  title='REFER TO MATERIAL THICKNESS FOR BEND & C'  mass=0.5kg  thick=3.0mm
+│  STL   ✓  file=6582530R.STL  tri=748  126.81×166.12×151.01mm  excl=0 fasteners  area=46042mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.2s  class_label=12
+
+┌─ 37501263R
+│  STEP  ✓  ent=4378 faces=131 cyl=56 adj_edges=371
+│  PDF   ✓  title='BRACE WING LC70 REAR BAR RH'  mass=0.9kg  thick=3.0mm
+│  STL   ✓  file=37501263R.STL  tri=934  183.21×324.77×294.65mm  excl=0 fasteners  area=86456mm²
+│  Quality: 3/3 — ✓✓✓ ready
+└─ done in 0.1s  class_label=1
